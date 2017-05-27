@@ -8,9 +8,19 @@
 
 #import <Foundation/Foundation.h>
 #import "HLViewController.h"
+#import "HLReusableCell.h"
+
+@interface HLCurrencyExchangeRate : NSObject
+@property (nonatomic, copy) NSString* fromCurrencyCode;
+@property (nonatomic, copy) NSString* toCurrencyCode;
+@property (nonatomic, copy) NSDecimalNumber* rate;
+@end
 
 @protocol HLCurrencyOutput <NSObject>
-- (void)dataUpdated;
+- (void)reload;
+- (void)registerCells:(NSArray<Class<HLReusableCell>>*)cells;
+- (void)setExchangeRate:(HLCurrencyExchangeRate*)rate;
+- (void)notEnough;
 @end
 
 @interface HLCurrencyInteractor : NSObject <HLViewSource>

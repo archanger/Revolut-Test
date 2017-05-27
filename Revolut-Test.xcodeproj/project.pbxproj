@@ -25,6 +25,13 @@
 		0EEFFF761ED86AE5002E432E /* HLCurrencyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFFF6F1ED859DD002E432E /* HLCurrencyParser.m */; };
 		0EEFFF7D1ED870F9002E432E /* HLCurrencyInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFFF7C1ED870F9002E432E /* HLCurrencyInteractor.m */; };
 		0EEFFF801ED87243002E432E /* HLAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFFF7F1ED87243002E432E /* HLAccount.m */; };
+		ED6A5B8F1ED97FC500D8C2E9 /* HLHorizontalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6A5B8C1ED97FC500D8C2E9 /* HLHorizontalLayout.m */; };
+		ED6A5B901ED97FC500D8C2E9 /* HLInfinitHorizontalCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6A5B8E1ED97FC500D8C2E9 /* HLInfinitHorizontalCollectionView.m */; };
+		ED6A5B951ED983E500D8C2E9 /* HLCurrencyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6A5B931ED983E500D8C2E9 /* HLCurrencyCell.m */; };
+		ED6A5B961ED983E500D8C2E9 /* HLCurrencyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6A5B941ED983E500D8C2E9 /* HLCurrencyCell.xib */; };
+		ED6A5BA11ED9F00000D8C2E9 /* UICollectionView+HLCellRegistrator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6A5BA01ED9F00000D8C2E9 /* UICollectionView+HLCellRegistrator.m */; };
+		ED6A5BA61EDA188B00D8C2E9 /* HLCurrencyInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6A5BA41EDA188B00D8C2E9 /* HLCurrencyInputCell.m */; };
+		ED6A5BA71EDA188B00D8C2E9 /* HLCurrencyInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6A5BA51EDA188B00D8C2E9 /* HLCurrencyInputCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +72,20 @@
 		0EEFFF7C1ED870F9002E432E /* HLCurrencyInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCurrencyInteractor.m; sourceTree = "<group>"; };
 		0EEFFF7E1ED87243002E432E /* HLAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAccount.h; sourceTree = "<group>"; };
 		0EEFFF7F1ED87243002E432E /* HLAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAccount.m; sourceTree = "<group>"; };
+		ED6A5B8B1ED97FC500D8C2E9 /* HLHorizontalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHorizontalLayout.h; sourceTree = "<group>"; };
+		ED6A5B8C1ED97FC500D8C2E9 /* HLHorizontalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHorizontalLayout.m; sourceTree = "<group>"; };
+		ED6A5B8D1ED97FC500D8C2E9 /* HLInfinitHorizontalCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLInfinitHorizontalCollectionView.h; sourceTree = "<group>"; };
+		ED6A5B8E1ED97FC500D8C2E9 /* HLInfinitHorizontalCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLInfinitHorizontalCollectionView.m; sourceTree = "<group>"; };
+		ED6A5B921ED983E500D8C2E9 /* HLCurrencyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCurrencyCell.h; sourceTree = "<group>"; };
+		ED6A5B931ED983E500D8C2E9 /* HLCurrencyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCurrencyCell.m; sourceTree = "<group>"; };
+		ED6A5B941ED983E500D8C2E9 /* HLCurrencyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLCurrencyCell.xib; sourceTree = "<group>"; };
+		ED6A5B981ED9EED200D8C2E9 /* HLReusableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLReusableCell.h; sourceTree = "<group>"; };
+		ED6A5B9F1ED9F00000D8C2E9 /* UICollectionView+HLCellRegistrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+HLCellRegistrator.h"; sourceTree = "<group>"; };
+		ED6A5BA01ED9F00000D8C2E9 /* UICollectionView+HLCellRegistrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+HLCellRegistrator.m"; sourceTree = "<group>"; };
+		ED6A5BA21EDA119C00D8C2E9 /* HLCollectionCompatible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCollectionCompatible.h; sourceTree = "<group>"; };
+		ED6A5BA31EDA188B00D8C2E9 /* HLCurrencyInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCurrencyInputCell.h; sourceTree = "<group>"; };
+		ED6A5BA41EDA188B00D8C2E9 /* HLCurrencyInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCurrencyInputCell.m; sourceTree = "<group>"; };
+		ED6A5BA51EDA188B00D8C2E9 /* HLCurrencyInputCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLCurrencyInputCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +127,8 @@
 		0EEFFF341ED83B10002E432E /* Revolut-Test */ = {
 			isa = PBXGroup;
 			children = (
+				ED6A5B971ED9EE7D00D8C2E9 /* Helpers */,
+				ED6A5B8A1ED97FB900D8C2E9 /* CollectionView */,
 				0EEFFF501ED83B73002E432E /* Model */,
 				0EEFFF4C1ED83B34002E432E /* Views */,
 				0EEFFF381ED83B10002E432E /* AppDelegate.h */,
@@ -130,6 +153,7 @@
 		0EEFFF4C1ED83B34002E432E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ED6A5B911ED9839100D8C2E9 /* Cell */,
 				0EEFFF7B1ED870F9002E432E /* HLCurrencyInteractor.h */,
 				0EEFFF7C1ED870F9002E432E /* HLCurrencyInteractor.m */,
 				0EEFFF4D1ED83B34002E432E /* HLViewController.h */,
@@ -164,6 +188,41 @@
 				0EEFFF741ED86AC4002E432E /* HLXMLParserTest.m */,
 			);
 			path = "Revolut-TestTests";
+			sourceTree = "<group>";
+		};
+		ED6A5B8A1ED97FB900D8C2E9 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A5B8B1ED97FC500D8C2E9 /* HLHorizontalLayout.h */,
+				ED6A5B8C1ED97FC500D8C2E9 /* HLHorizontalLayout.m */,
+				ED6A5B8D1ED97FC500D8C2E9 /* HLInfinitHorizontalCollectionView.h */,
+				ED6A5B8E1ED97FC500D8C2E9 /* HLInfinitHorizontalCollectionView.m */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		ED6A5B911ED9839100D8C2E9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A5BA21EDA119C00D8C2E9 /* HLCollectionCompatible.h */,
+				ED6A5B921ED983E500D8C2E9 /* HLCurrencyCell.h */,
+				ED6A5B931ED983E500D8C2E9 /* HLCurrencyCell.m */,
+				ED6A5B941ED983E500D8C2E9 /* HLCurrencyCell.xib */,
+				ED6A5BA31EDA188B00D8C2E9 /* HLCurrencyInputCell.h */,
+				ED6A5BA41EDA188B00D8C2E9 /* HLCurrencyInputCell.m */,
+				ED6A5BA51EDA188B00D8C2E9 /* HLCurrencyInputCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		ED6A5B971ED9EE7D00D8C2E9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A5B981ED9EED200D8C2E9 /* HLReusableCell.h */,
+				ED6A5B9F1ED9F00000D8C2E9 /* UICollectionView+HLCellRegistrator.h */,
+				ED6A5BA01ED9F00000D8C2E9 /* UICollectionView+HLCellRegistrator.m */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +311,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EEFFF451ED83B10002E432E /* LaunchScreen.storyboard in Resources */,
+				ED6A5BA71EDA188B00D8C2E9 /* HLCurrencyInputCell.xib in Resources */,
 				0EEFFF421ED83B10002E432E /* Assets.xcassets in Resources */,
+				ED6A5B961ED983E500D8C2E9 /* HLCurrencyCell.xib in Resources */,
 				0EEFFF401ED83B10002E432E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,10 +333,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EEFFF531ED83BA5002E432E /* HLCurrencyService.m in Sources */,
+				ED6A5B8F1ED97FC500D8C2E9 /* HLHorizontalLayout.m in Sources */,
 				0EEFFF731ED85B89002E432E /* HLProvider.m in Sources */,
+				ED6A5BA11ED9F00000D8C2E9 /* UICollectionView+HLCellRegistrator.m in Sources */,
 				0EEFFF3A1ED83B10002E432E /* AppDelegate.m in Sources */,
 				0EEFFF801ED87243002E432E /* HLAccount.m in Sources */,
 				0EEFFF7D1ED870F9002E432E /* HLCurrencyInteractor.m in Sources */,
+				ED6A5B951ED983E500D8C2E9 /* HLCurrencyCell.m in Sources */,
+				ED6A5B901ED97FC500D8C2E9 /* HLInfinitHorizontalCollectionView.m in Sources */,
+				ED6A5BA61EDA188B00D8C2E9 /* HLCurrencyInputCell.m in Sources */,
 				0EEFFF4F1ED83B34002E432E /* HLViewController.m in Sources */,
 				0EEFFF701ED859DD002E432E /* HLCurrencyParser.m in Sources */,
 				0EEFFF371ED83B10002E432E /* main.m in Sources */,
@@ -485,6 +551,7 @@
 				0EEFFF4B1ED83B10002E432E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EEFFF671ED848F0002E432E /* Build configuration list for PBXNativeTarget "Revolut-TestTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +560,7 @@
 				0EEFFF691ED848F0002E432E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

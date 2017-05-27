@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HLInfinitHorizontalCollectionView.h"
 
-@protocol HLViewSource <NSObject>
+@protocol HLViewSource <NSObject, HLInfinitHorizontalCollectionViewDataSource>
 
 - (void)updateData;
 - (void)exchange;
+- (void)requestCellsNib;
 
 @end
 

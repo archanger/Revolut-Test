@@ -76,6 +76,10 @@
 
 - (NSDecimalNumber*)calculateRateFrom:(NSString*) fromCurrency toCurrency:(NSString*) toCurrency {
   
+  if ([fromCurrency isEqualToString:toCurrency]) {
+    return [[NSDecimalNumber alloc] initWithInt:1];
+  }
+  
   if ([fromCurrency isEqualToString:_originNode.name] == YES) {
     return _originNode.links[toCurrency].weight;
   }

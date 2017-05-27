@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="VNs-CR-cEm" customClass="HLCurrencyInputCell">
+            <rect key="frame" x="0.0" y="0.0" width="318" height="231"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="318" height="231"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pza-2F-34Y">
+                        <rect key="frame" x="28" y="61" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mlh-4i-AAq">
+                        <rect key="frame" x="239" y="66" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whL-i9-spf">
+                        <rect key="frame" x="28" y="30" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" borderStyle="line" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TCi-iz-LHn">
+                        <rect key="frame" x="78" y="30.5" width="203" height="21"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                    </textField>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="mlh-4i-AAq" firstAttribute="trailing" secondItem="TCi-iz-LHn" secondAttribute="trailing" id="5Kn-aQ-yhS"/>
+                <constraint firstItem="TCi-iz-LHn" firstAttribute="centerY" secondItem="whL-i9-spf" secondAttribute="centerY" id="Coo-tM-XdJ"/>
+                <constraint firstItem="Pza-2F-34Y" firstAttribute="top" secondItem="whL-i9-spf" secondAttribute="bottom" constant="10" id="FBp-wF-uNy"/>
+                <constraint firstItem="TCi-iz-LHn" firstAttribute="leading" secondItem="whL-i9-spf" secondAttribute="trailing" constant="8" symbolic="YES" id="QbQ-mx-kSI"/>
+                <constraint firstItem="whL-i9-spf" firstAttribute="leading" secondItem="VNs-CR-cEm" secondAttribute="leading" constant="28" id="UUU-VN-LWN"/>
+                <constraint firstAttribute="trailing" secondItem="TCi-iz-LHn" secondAttribute="trailing" constant="37" id="YMi-7d-BIn"/>
+                <constraint firstItem="mlh-4i-AAq" firstAttribute="top" secondItem="TCi-iz-LHn" secondAttribute="bottom" constant="14.5" id="lXQ-ZV-JVf"/>
+                <constraint firstItem="whL-i9-spf" firstAttribute="top" secondItem="VNs-CR-cEm" secondAttribute="top" constant="30" id="mtj-sg-6FX"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Pza-2F-34Y" secondAttribute="bottom" constant="8" id="sFk-Jz-whj"/>
+                <constraint firstItem="Pza-2F-34Y" firstAttribute="leading" secondItem="whL-i9-spf" secondAttribute="leading" id="tdw-Bo-uOW"/>
+            </constraints>
+            <size key="customSize" width="318" height="231"/>
+            <connections>
+                <outlet property="amountlabel" destination="Pza-2F-34Y" id="AYU-rb-kRl"/>
+                <outlet property="currencyLabel" destination="whL-i9-spf" id="HyH-hk-Lga"/>
+                <outlet property="inputField" destination="TCi-iz-LHn" id="gQp-V9-Ehe"/>
+            </connections>
+            <point key="canvasLocation" x="-626" y="-300"/>
+        </collectionViewCell>
+    </objects>
+</document>
