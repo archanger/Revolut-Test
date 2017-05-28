@@ -172,6 +172,8 @@
 
 - (void)infinitCollectionView:(HLInfinitHorizontalCollectionView *)view didChangeCurrentPage:(NSInteger)index {
   
+  [self updateInputTarget];
+  
   switch (view.tag) {
     case FROM_COLLECTION_VIEW:
       self.accountFromIndex = index;
@@ -185,7 +187,7 @@
       break;
   }
   
-  [self updateInputTarget];
+  
   [self updateRate];
   [self currencyInputModelChanged:nil];
 }

@@ -42,10 +42,7 @@
 
 - (void)setCurrentInput {
   if ([self.currentCell isKindOfClass:[HLCurrencyInputCell class]]) {
-    
-    [UIView performWithoutAnimation:^{
-      [((HLCurrencyInputCell*)self.currentCell).inputField becomeFirstResponder];
-    }];
+    [((HLCurrencyInputCell*)self.currentCell).inputField resignFirstResponder];
   }
 }
 
